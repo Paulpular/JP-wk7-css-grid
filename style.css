@@ -832,10 +832,12 @@ a {
     }
 
     .second-header.visible {
+        width: 95%;
         display: block;
         background: #FFF;
         position: absolute;
         transform: translate(6%);
+        transition: 5s ease;
     }
 
     .h3-mobile {
