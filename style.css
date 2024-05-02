@@ -79,6 +79,10 @@ h1 {
     width: 20%;
 }
 
+.frame5-mobile {
+    display: none;
+}
+
 .image-frame {
     width: 85%;
     border-radius: 100%;
@@ -132,13 +136,17 @@ h1 {
     padding: 1.5rem 0 0.625rem 0;
 }
 
-.h3-home, .h3-middle {
+.h3-home, .h3-middle, .h3-mobile {
     font-family: oswald;
     color: #FFF;
     font-size: 1.15rem;
     font-weight: 400;
     line-height: normal;
     position: relative;
+}
+
+.h3-mobile {
+    display: none;
 }
 
 .horizontal-line {
@@ -189,7 +197,7 @@ a {
 
 .grid-container1  {
     width: 95%;
-    position: relative;
+    /* position: relative; */
     margin: 3rem auto;
     display: grid;
     grid-template-columns: 55.3% 21% 21%;
@@ -226,43 +234,63 @@ a {
 }
 
 .business1 {
-    width: 6%;
+    width: 9%;
+    background: #08F;
+    text-align: center;
+    padding: 1% 0 1%;
+    margin: 5% 0 56% 5%;
+    /* width: 6%;
     background: #08F;
     text-align: center;
     padding: 0.6% 0.6%;
     position: absolute;
     top: 5%;
-    left: 2.8%;
+    left: 2.8%; */
 }
 
 .business2 {
-    width: 6%;
+    width: 20%;
+    background: #997C00;
+    text-align: center;
+    padding: 2% 0 2%;
+    margin: 11% 0 58% 11%;
+    /* width: 6%;
     background: #997C00;
     text-align: center;
     padding: 0.6% 0.6%;
     position: absolute;
     top: 5%;
-    left: 59%;
+    left: 59%; */
 }
 
 .business3 {
-    width: 6%;
+    width: 20%;
+    background: #08F;
+    text-align: center;
+    padding: 2% 0 2%;
+    margin: 11% 0 58% 11%;
+    /* width: 6%;
     background: #08F;
     text-align: center;
     padding: 0.6% 0.6%;
     position: absolute;
     top: 5%;
-    left: 81.5%;
+    left: 81.5%; */
 }
 
 .business4 {
-    width: 6%;
+    width: 11%;
+    background: #49CFE8;
+    text-align: center;
+    padding: 1.1% 0 1.1%;
+    margin: 5% 0 23% 5%;
+    /* width: 6%;
     background: #49CFE8;
     text-align: center;
     padding: 0.6% 0.6%;
     position: absolute;
     top: 56%;
-    left: 59%;
+    left: 59%; */
 }
 
 .business-paragraph1 {
@@ -274,7 +302,14 @@ a {
 }
 
 .business-paragraph2 {
-    width: 12%;
+    width: 22%;
+    color: #FFF;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 100.9%;
+    margin: 0 5% 1%;
+    /* width: 12%;
     color: #FFF;
     font-family: "Sofia Sans", sans-serif;
     font-size: 0.75rem;
@@ -282,11 +317,18 @@ a {
     line-height: 100.9%;
     position: absolute;
     top: 74%;
-    left: 2.8%;
+    left: 2.8%; */
 }
 
 .business-paragraph4-left {
-    width: 10%;
+    width: 50%;
+    color: #FFF;
+    font-family: "Sofia", cursive;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 100.9%;
+    margin: 0 0 0 11%;
+    /* width: 10%;
     color: #FFF;
     font-family: "Sofia", cursive;
     font-size: 0.7rem;
@@ -294,11 +336,18 @@ a {
     line-height: 100.9%;
     position: absolute;
     top: 34.5%;
-    left: 59%;
+    left: 59%; */
 }
 
 .business-paragraph4-right {
-    width: 10%;
+    width: 50%;
+    color: #FFF;
+    font-family: "Sofia", cursive;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 100.9%;
+    margin: 0 0 0 11%;
+    /* width: 10%;
     color: #FFF;
     font-family: "Sofia", cursive;
     font-size: 0.7rem;
@@ -306,44 +355,66 @@ a {
     line-height: 100.9%;
     position: absolute;
     top: 34.5%;
-    left: 81%;
+    left: 81%; */
+}
+
+.first-h3 {
+    width: 70%;
+    margin: 0 0 0 5%;
 }
 
 .business-paragraph3 {
-    width: 41%;
+    /* width: 41%; */
     color: #FFF;
     font-family: Oswald;
     font-size: 2.1rem;
     font-weight: 500;
-    position: absolute;
-    top: 78%;
-    left: 2.8%;
+    /* position: absolute; */
+    /* top: 78%; */
+    /* left: 2.8%; */
+}
+
+.second-h3 {
+    width: 65%;
+    margin: 0 0 0 11%;
 }
 
 .business-paragraph5 {
-    width: 17%;
+    /* width: 17%; */
     color: #FFF;
     font-family: Oswald;
     font-size: 0.75rem;
     font-weight: 500;
-    position: absolute;
-    top: 38%;
-    left: 59%;
+    /* position: absolute; */
+    /* top: 38%; */
+    /* left: 59%; */
+}
+
+.third-h3 {
+    width: 65%;
+    margin: 0 0 0 11%;
 }
 
 .business-paragraph6 {
-    width: 14%;
+    /* width: 14%; */
     color: #FFF;
     font-family: Oswald;
     font-size: 0.75rem;
     font-weight: 500;
-    position: absolute;
-    top: 38%;
-    left: 81%;
+    /* position: absolute; */
+    /* top: 38%; */
+    /* left: 81%; */
 }
 
 .business-paragraph7 {
-    width: 12%;
+    width: 28%;
+    color: #FFF;
+    font-family: "Sofia Sans";
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 100.9%;
+    margin: 0 0 0 5%;
+    /* width: 12%;
     color: #FFF;
     font-family: "Sofia Sans";
     font-size: 0.75rem;
@@ -351,18 +422,23 @@ a {
     line-height: 100.9%;
     position: absolute;
     top: 81%;
-    left: 59%;
+    left: 59%; */
+}
+
+.forth-h3 {
+    width: 63%;
+    margin: 0 0 0 5%;
 }
 
 .business-paragraph8 {
-    width: 30%;
+    /* width: 30%; */
     color: #FFF;
     font-family: Oswald;
     font-size: 1.5rem;
     font-weight: 500;
-    position: absolute;
-    top: 85%;
-    left: 59%;
+    /* position: absolute; */
+    /* top: 85%; */
+    /* left: 59%; */
 }
 
 .grid-container2 {
@@ -751,6 +827,53 @@ a {
         display: none;
     }
 
+    .left {
+        display: none;
+    }
+
+    .second-header.visible {
+        display: block;
+        background: #FFF;
+        position: fixed;
+    }
+
+    .h3-mobile {
+        display: flex;
+        color: #FFF;
+        background: #F65050;
+        padding: 5% 40%;
+        font-size: 1.4rem;
+    }
+
+    .h3-middle {
+        flex-direction: column;
+        color: #393939;
+        font-size: 1.4rem;
+    }
+
+    .middle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-frames {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 50% 0 60%;
+        gap: 1%;
+    }
+
+    .frame5-mobile {
+        display: block;
+        width: 8%;
+}
+
+    .horizontal-line, .vertical-line-frame, .arrow-frame, .search-icon, .search {
+        display: none;
+    }
+
     .grid-container1 {
         grid-template-columns: 48% 40%;
         grid-template-rows: 29.4rem 12.5rem 12.5rem;
@@ -785,76 +908,95 @@ a {
 
     .business1, .business2, .business3, .business4 {
         width: 12%;
-        left: 5%;
+        margin: 5% 0 80% 5%;
+        /* left: 5%; */
     }
 
     .business-paragraph2 {
         width: 35%;
-        top: 39%;
-        left: 5%;
+        /* top: 39%; */
+        /* left: 5%; */
     }
 
     .business-paragraph3 {
-        width: 58%;
+        width: 80%;
         font-size: 1rem;
-        top: 41.5%;
-        left: 5%;
+        /* top: 41.5%; */
+        /* left: 5%; */
     }
 
     .business2 {
-        top: 56%;
-        left: 8%;
+        width: 27%;
+        margin: 10% 0 57% 11%;
+        /* top: 56%; */
+        /* left: 8%; */
     }
 
     .business-paragraph4-left {
-        width: 39%;
+        width: 60%;
         font-size: 0.64rem;
-        top: 69%;
-        left: 7%;
+        margin: 0 0 0 8%;
+        /* top: 69%; */
+        /* left: 7%; */
+    }
+
+    .second-h3 {
+        width: 90%;
+        margin: 0 0 0 8%;
     }
 
     .business-paragraph5 {
-        width: 36%;
+        width: 92%;
         font-size: 0.75rem;
-        top: 71%;
-        left: 7.5%;
+        /* top: 71%; */
+        /* left: 7.5%; */
     }
 
     .business3 {
-        top: 56%;
-        left: 56%;
+        width: 27%;
+        margin: 10% 0 57% 11%;
+        /* top: 56%; */
+        /* left: 56%; */
     }
 
     .business-paragraph4-right {
-        width: 39%;
+        width: 60%;
         font-size: 0.64rem;
-        top: 69%;
-        left: 56%;
+        margin: 0 0 0 8%;
+        /* top: 69%; */
+        /* left: 56%; */
+    }
+
+    .third-h3 {
+        width: 90%;
+        margin: 0 0 0 8%;
     }
 
     .business-paragraph6 {
-        width: 36%;
+        width: 92%;
         font-size: 0.75rem;
-        top: 71%;
-        left: 56%;
+        /* top: 71%; */
+        /* left: 56%; */
     }
 
     .business4 {
-        top: 80%;
-        left: 8%
+        width: 13%;
+        margin: 5% 0 21% 5%;
+        /* top: 80%; */
+        /* left: 8% */
     }
 
     .business-paragraph7 {
-        width: 36%;
-        top: 91%;
-        left: 8%;
+        width: 38%;
+        /* top: 91%; */
+        /* left: 8%; */
     }
 
     .business-paragraph8 {
-        width: 58%;
+        width: 100%;
         font-size: 1rem;
-        top: 93.5%;
-        left: 8%;
+        /* top: 93.5%; */
+        /* left: 8%; */
     }
 
     .grid-container2 {
