@@ -834,7 +834,7 @@ a {
     .second-header.visible {
         display: block;
         background: #FFF;
-        position: fixed;
+        position: absolute;
     }
 
     .h3-mobile {
