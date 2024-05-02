@@ -197,7 +197,6 @@ a {
 
 .grid-container1  {
     width: 95%;
-    /* position: relative; */
     margin: 3rem auto;
     display: grid;
     grid-template-columns: 55.3% 21% 21%;
@@ -239,13 +238,6 @@ a {
     text-align: center;
     padding: 1% 0 1%;
     margin: 5% 0 56% 5%;
-    /* width: 6%;
-    background: #08F;
-    text-align: center;
-    padding: 0.6% 0.6%;
-    position: absolute;
-    top: 5%;
-    left: 2.8%; */
 }
 
 .business2 {
@@ -254,13 +246,6 @@ a {
     text-align: center;
     padding: 2% 0 2%;
     margin: 11% 0 58% 11%;
-    /* width: 6%;
-    background: #997C00;
-    text-align: center;
-    padding: 0.6% 0.6%;
-    position: absolute;
-    top: 5%;
-    left: 59%; */
 }
 
 .business3 {
@@ -269,13 +254,6 @@ a {
     text-align: center;
     padding: 2% 0 2%;
     margin: 11% 0 58% 11%;
-    /* width: 6%;
-    background: #08F;
-    text-align: center;
-    padding: 0.6% 0.6%;
-    position: absolute;
-    top: 5%;
-    left: 81.5%; */
 }
 
 .business4 {
@@ -284,13 +262,6 @@ a {
     text-align: center;
     padding: 1.1% 0 1.1%;
     margin: 5% 0 23% 5%;
-    /* width: 6%;
-    background: #49CFE8;
-    text-align: center;
-    padding: 0.6% 0.6%;
-    position: absolute;
-    top: 56%;
-    left: 59%; */
 }
 
 .business-paragraph1 {
@@ -309,15 +280,6 @@ a {
     font-weight: 400;
     line-height: 100.9%;
     margin: 0 5% 1%;
-    /* width: 12%;
-    color: #FFF;
-    font-family: "Sofia Sans", sans-serif;
-    font-size: 0.75rem;
-    font-weight: 400;
-    line-height: 100.9%;
-    position: absolute;
-    top: 74%;
-    left: 2.8%; */
 }
 
 .business-paragraph4-left {
@@ -328,15 +290,6 @@ a {
     font-weight: 400;
     line-height: 100.9%;
     margin: 0 0 0 11%;
-    /* width: 10%;
-    color: #FFF;
-    font-family: "Sofia", cursive;
-    font-size: 0.7rem;
-    font-weight: 400;
-    line-height: 100.9%;
-    position: absolute;
-    top: 34.5%;
-    left: 59%; */
 }
 
 .business-paragraph4-right {
@@ -347,15 +300,6 @@ a {
     font-weight: 400;
     line-height: 100.9%;
     margin: 0 0 0 11%;
-    /* width: 10%;
-    color: #FFF;
-    font-family: "Sofia", cursive;
-    font-size: 0.7rem;
-    font-weight: 400;
-    line-height: 100.9%;
-    position: absolute;
-    top: 34.5%;
-    left: 81%; */
 }
 
 .first-h3 {
@@ -364,14 +308,10 @@ a {
 }
 
 .business-paragraph3 {
-    /* width: 41%; */
     color: #FFF;
     font-family: Oswald;
     font-size: 2.1rem;
     font-weight: 500;
-    /* position: absolute; */
-    /* top: 78%; */
-    /* left: 2.8%; */
 }
 
 .second-h3 {
@@ -380,14 +320,10 @@ a {
 }
 
 .business-paragraph5 {
-    /* width: 17%; */
     color: #FFF;
     font-family: Oswald;
     font-size: 0.75rem;
     font-weight: 500;
-    /* position: absolute; */
-    /* top: 38%; */
-    /* left: 59%; */
 }
 
 .third-h3 {
@@ -396,14 +332,10 @@ a {
 }
 
 .business-paragraph6 {
-    /* width: 14%; */
     color: #FFF;
     font-family: Oswald;
     font-size: 0.75rem;
     font-weight: 500;
-    /* position: absolute; */
-    /* top: 38%; */
-    /* left: 81%; */
 }
 
 .business-paragraph7 {
@@ -414,15 +346,6 @@ a {
     font-weight: 400;
     line-height: 100.9%;
     margin: 0 0 0 5%;
-    /* width: 12%;
-    color: #FFF;
-    font-family: "Sofia Sans";
-    font-size: 0.75rem;
-    font-weight: 400;
-    line-height: 100.9%;
-    position: absolute;
-    top: 81%;
-    left: 59%; */
 }
 
 .forth-h3 {
@@ -431,14 +354,10 @@ a {
 }
 
 .business-paragraph8 {
-    /* width: 30%; */
     color: #FFF;
     font-family: Oswald;
     font-size: 1.5rem;
     font-weight: 500;
-    /* position: absolute; */
-    /* top: 85%; */
-    /* left: 59%; */
 }
 
 .grid-container2 {
@@ -831,15 +750,6 @@ a {
         display: none;
     }
 
-    .second-header.visible {
-        width: 95%;
-        display: block;
-        background: #FFF;
-        position: absolute;
-        transform: translate(6%);
-        transition: 5s ease;
-    }
-
     .h3-mobile {
         display: flex;
         color: #FFF;
@@ -857,14 +767,16 @@ a {
     .middle {
         flex-direction: column;
         align-items: center;
+        background: #FFF;
     }
 
     .mobile-frames {
         display: flex;
+        background: #FFF;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 46% 0 57%;
+        padding: 41% 0 54%;
         gap: 1%;
     }
 
@@ -916,35 +828,26 @@ a {
     .business1, .business2, .business3, .business4 {
         width: 12%;
         margin: 5% 0 80% 5%;
-        /* left: 5%; */
     }
 
     .business-paragraph2 {
         width: 35%;
-        /* top: 39%; */
-        /* left: 5%; */
     }
 
     .business-paragraph3 {
         width: 80%;
         font-size: 1rem;
-        /* top: 41.5%; */
-        /* left: 5%; */
     }
 
     .business2 {
         width: 27%;
         margin: 10% 0 57% 11%;
-        /* top: 56%; */
-        /* left: 8%; */
     }
 
     .business-paragraph4-left {
         width: 60%;
         font-size: 0.64rem;
         margin: 0 0 0 8%;
-        /* top: 69%; */
-        /* left: 7%; */
     }
 
     .second-h3 {
@@ -955,23 +858,17 @@ a {
     .business-paragraph5 {
         width: 92%;
         font-size: 0.75rem;
-        /* top: 71%; */
-        /* left: 7.5%; */
     }
 
     .business3 {
         width: 27%;
         margin: 10% 0 57% 11%;
-        /* top: 56%; */
-        /* left: 56%; */
     }
 
     .business-paragraph4-right {
         width: 60%;
         font-size: 0.64rem;
         margin: 0 0 0 8%;
-        /* top: 69%; */
-        /* left: 56%; */
     }
 
     .third-h3 {
@@ -982,28 +879,20 @@ a {
     .business-paragraph6 {
         width: 92%;
         font-size: 0.75rem;
-        /* top: 71%; */
-        /* left: 56%; */
     }
 
     .business4 {
         width: 13%;
         margin: 5% 0 21% 5%;
-        /* top: 80%; */
-        /* left: 8% */
     }
 
     .business-paragraph7 {
         width: 38%;
-        /* top: 91%; */
-        /* left: 8%; */
     }
 
     .business-paragraph8 {
         width: 100%;
         font-size: 1rem;
-        /* top: 93.5%; */
-        /* left: 8%; */
     }
 
     .grid-container2 {
@@ -1103,5 +992,25 @@ a {
 
     .footer-paragraph, .footer-span, .a-tag {
         font-size: 100%;
+    }
+
+    .menu-X {
+        display: none;
+    }
+
+    .menu-list.invisible {
+        display: none;  
+    }
+
+    .menu-X.visible {
+        display: block;
+    }
+
+    .second-header.switch {
+        display: block;
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        background: #FFF;
     }
 }
